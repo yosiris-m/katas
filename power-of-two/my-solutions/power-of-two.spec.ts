@@ -1,4 +1,4 @@
-import { getPowerOfTwo } from './power-of-two'
+import { getPowerOfTwo } from './for-power-of-two'
 
 describe('getPowerOfTwo', () => {
   it('should get list squared', () => {
