@@ -1,6 +1,6 @@
-export function getTotalSum(num: number[]) {
-  let total: number = 0
-  num.forEach(function (n) {
+export function getTotalSum(numbers: number[]) {
+  let total = 0
+  numbers.forEach(function (n) {
     total += n
   })
   return total

@@ -1,3 +1,3 @@
-export function getTotalSum(num: number[]) {
-  return num.reduce((a, b) => a + b, 0)
+export function getTotalSum(numbers: number[]) {
+  return numbers.reduce((a, b) => a + b, 0)
 }

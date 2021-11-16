@@ -6,7 +6,6 @@ describe('getTotalSum', () => {
 
     const result = getTotalSum(total)
 
-    const expected = 7
-    expect(result).toBe(expected)
+    expect(result).toBe(7)
   })
 })
