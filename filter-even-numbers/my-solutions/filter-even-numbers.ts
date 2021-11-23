@@ -1,3 +1,3 @@
-export function filterNumberList(list: number[]) {
+export function getFilterEvenNumberList(list: number[]) {
   return list.filter(number => number % 2 === 0)
 }

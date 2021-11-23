@@ -1,7 +1,7 @@
 import { filterNumberList } from './fori.filter-even-numbers'
 
 describe('filterNumberList', () => {
-  it('filter the numbers even numbers from the matrix.', () => {
+  it('should filter the odd numbers from the list', () => {
     const numbers = [12, 1, 5, 60, 55, 2, 3, 4]
 
     const result = filterNumberList(numbers)
